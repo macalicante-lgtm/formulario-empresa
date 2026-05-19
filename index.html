@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.65">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    span.s1 {font: 12.0px 'Apple Color Emoji'}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="es"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Registro de empresa — Prácticas FP&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>* { box-sizing: border-box; margin: 0; padding: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>body { font-family: sans-serif; background: #f5f5f5; padding: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.form { background: white; border-radius: 12px; padding: 28px; max-width: 560px; margin: 0 auto; border: 1px solid #eee; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>h2 { font-size: 20px; margin-bottom: 6px; color: #185FA5; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>p { font-size: 13px; color: #666; margin-bottom: 24px; line-height: 1.5; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.campo { margin-bottom: 14px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>label { font-size: 12px; color: #666; display: block; margin-bottom: 4px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>input, select, textarea { width: 100%; padding: 9px 12px; border-radius: 6px; border: 1px solid #ddd; font-size: 14px; font-family: sans-serif; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>textarea { resize: vertical; min-height: 80px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.btn { width: 100%; background: #185FA5; color: white; border: none; padding: 12px; border-radius: 6px; cursor: pointer; font-size: 15px; font-weight: 500; margin-top: 8px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.btn:disabled { background: #999; cursor: not-allowed; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.exito { background: #EAF3DE; color: #3B6D11; padding: 16px; border-radius: 8px; font-size: 14px; text-align: center; display: none; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.error { background: #FCEBEB; color: #A32D2D; padding: 10px 14px; border-radius: 6px; font-size: 13px; margin-top: 12px; display: none; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.required { color: #A32D2D; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="form"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Registro de empresa colaboradora&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Rellena el formulario para colaborar con nuestro centro en las prácticas de Formación Profesional. Nos pondremos en contacto contigo para confirmar los detalles.&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="formulario"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="campo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;Nombre de la empresa &lt;span class="required"&gt;*&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;input type="text" id="nombre" placeholder="Empresa S.L." /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="campo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;Sector&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;input type="text" id="sector" placeholder="Informática, Comercio..." /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="campo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;Ciudad &lt;span class="required"&gt;*&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;input type="text" id="ciudad" placeholder="Elche" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="campo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;Zona&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;select id="zona"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option value=""&gt;Seleccionar zona&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option&gt;Elche centro&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option&gt;Elche sur&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option&gt;Elche norte&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option&gt;Elche oeste&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option&gt;Alicante&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option&gt;Santa Pola&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option&gt;Crevillent&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option&gt;Guardamar&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option&gt;Torrevieja&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option&gt;Otra&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="campo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;Plazas disponibles &lt;span class="required"&gt;*&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;input type="number" id="plazas" min="1" value="1" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="campo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;Nombre del tutor &lt;span class="required"&gt;*&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;input type="text" id="tutor_nombre" placeholder="Nombre y apellidos" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="campo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;Email del tutor &lt;span class="required"&gt;*&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;input type="email" id="tutor_email" placeholder="tutor@empresa.com" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="campo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;Teléfono de contacto&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;input type="tel" id="tutor_telefono" placeholder="600 000 000" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="campo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label&gt;Observaciones o información adicional&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;textarea id="observaciones" placeholder="Horario, requisitos, descripción de tareas..."&gt;&lt;/textarea&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="error" id="error-msg"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button class="btn" id="btn-enviar" onclick="enviar()"&gt;Enviar solicitud&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="exito" id="exito-msg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span><span class="s1">✅</span> ¡Gracias por registrarte! Hemos recibido tu solicitud y nos pondremos en contacto contigo en breve.</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const SUPABASE_URL = 'https://isylpuowetmqgfmslrhb.supabase.co'</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlzeWxwdW93ZXRtcWdmbXNscmhiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc5OTI5NTcsImV4cCI6MjA5MzU2ODk1N30.iFlyFsxfUY45PWlwkDf3AKzPXfCaf47O3TgTFnuVLq8'</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>async function enviar() {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const nombre = document.getElementById('nombre').value.trim()</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const ciudad = document.getElementById('ciudad').value.trim()</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const tutor_nombre = document.getElementById('tutor_nombre').value.trim()</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const tutor_email = document.getElementById('tutor_email').value.trim()</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const plazas = document.getElementById('plazas').value</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>const errorEl = document.getElementById('error-msg')</p>
+<p class="p1"><span class="Apple-converted-space">      </span>errorEl.style.display = 'none'</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (!nombre || !ciudad || !tutor_nombre || !tutor_email || !plazas) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>errorEl.textContent = 'Por favor rellena todos los campos obligatorios (*).'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>errorEl.style.display = 'block'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>return</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>const btn = document.getElementById('btn-enviar')</p>
+<p class="p1"><span class="Apple-converted-space">      </span>btn.disabled = true</p>
+<p class="p1"><span class="Apple-converted-space">      </span>btn.textContent = 'Enviando...'</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>const datos = {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>nombre,</p>
+<p class="p1"><span class="Apple-converted-space">        </span>sector: document.getElementById('sector').value.trim(),</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ciudad,</p>
+<p class="p1"><span class="Apple-converted-space">        </span>zona: document.getElementById('zona').value,</p>
+<p class="p1"><span class="Apple-converted-space">        </span>plazas_total: parseInt(plazas),</p>
+<p class="p1"><span class="Apple-converted-space">        </span>tutor_nombre,</p>
+<p class="p1"><span class="Apple-converted-space">        </span>tutor_email,</p>
+<p class="p1"><span class="Apple-converted-space">        </span>tutor_telefono: document.getElementById('tutor_telefono').value.trim(),</p>
+<p class="p1"><span class="Apple-converted-space">        </span>observaciones: document.getElementById('observaciones').value.trim(),</p>
+<p class="p1"><span class="Apple-converted-space">        </span>origen: 'formulario_externo',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>pendiente_revision: true,</p>
+<p class="p1"><span class="Apple-converted-space">        </span>activa: false</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>const response = await fetch(`${SUPABASE_URL}/rest/v1/empresas`, {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>method: 'POST',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>headers: {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Content-Type': 'application/json',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'apikey': SUPABASE_KEY,</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Authorization': `Bearer ${SUPABASE_KEY}`,</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Prefer': 'return=minimal'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body: JSON.stringify(datos)</p>
+<p class="p1"><span class="Apple-converted-space">      </span>})</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (response.ok) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('formulario').style.display = 'none'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('exito-msg').style.display = 'block'</p>
+<p class="p1"><span class="Apple-converted-space">      </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>errorEl.textContent = 'Ha ocurrido un error. Por favor inténtalo de nuevo.'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>errorEl.style.display = 'block'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>btn.disabled = false</p>
+<p class="p1"><span class="Apple-converted-space">        </span>btn.textContent = 'Enviar solicitud'</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
